@@ -4,14 +4,14 @@ public class exNumbers {
         System.out.printf("Num1 = %d,  Num2 = %d\n\n", num1, num2);
 
         addTwoNumbers(num1,num2);
-        substractTwoNumbers(num1,num2);
+        substrTwoNumbers(num1,num2);
     }
 
-    public static void addTwoNumbers(int a, int b) {
-        System.out.println("SUM = " + (a + b));
+    public static void addTwoNumbers(int n1, int n2) {
+        System.out.println("SUM = " + (n1 + n2));
     }
 
-    public static void substractTwoNumbers(int a, int b) {
+    public static void substrTwoNumbers(int a, int b) {
         System.out.println("DIFFERENCE = " + (a - b));
     }
 }
